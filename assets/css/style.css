@@ -510,3 +510,48 @@ h1::after {
     max-width: 100%;
     height: auto;
 }
+.servicesf-section {
+    padding: 30px;
+    background-color: #f9f9f9; /* Light background color for better readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Slight shadow for emphasis */
+}
+
+.servicesf-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.servicesf-section hr {
+    border: 0;
+    border-top: 2px solid #2f9484; /* Accent color to match your theme */
+    margin-bottom: 20px;
+}
+
+.servicef-item {
+    margin-bottom: 20px;
+}
+
+.servicef-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2f9484; /* Accent color for subheadings */
+}
+
+.servicef-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.servicef-item a.service-link {
+    color: #2f9484; /* Accent color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.servicef-item a.service-link:hover {
+    color: #1a7f6d; /* Darker shade for hover effect */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
